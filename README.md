@@ -1,3 +1,5 @@
+![Screen Shot](screens/screen.png)
+
 This was my LDJAM entry for Ludum Dare #38. For details on the
 development of the game, please read the [Post
 Mortem](http://makenai.net/Ludum-Dare-38-Postmortem/).
