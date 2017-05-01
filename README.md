@@ -17,6 +17,22 @@ made this using Phaser as I am a JavaScript developer for my normal day
 job and it seemed smart go with what I know! Other tools used: Tiled,
 Aseprite, bfxr, Wolfram Tones, Texture Packer, and Photoshop.
 
+# Running / Building
+
+This game uses PhaserJS and specifically a convenience package called [phaser-node-kit](https://www.npmjs.com/package/phaser-node-kit). In order to run it locally, you'll need to have nodejs installed on your computer with npm configured. This is automatically present on OSX.
+
+You'll need to install phaser-node-kit, and then run the local web server:
+
+```bash
+$ npm install -g phaser-node-kit
+$ pnkit watch
+```
+
+After that, just navigate to http://localhost:5550/
+
+If you don't want to do this, there is a version of the entire game precompiled in the `build` directory, but you will need to run it through a local webserver for assets to work. You can try `python -m SimpleHTTPServer` from within build to run on port 8000.
+
+The source code in `game/js` is probably easier to look at though.
 
 # Links
 
